@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center"
+android:orientation="vertical">
+
+    <Button
+            android:text="PICTURE "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnpgl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:id="@+id/btnbuka"
+            android:textColor="@android:color/holo_red_dark"
+            android:onClick="buka"
+            tools:ignore="OnClick"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INFORMATIKA 6C"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:id="@+id/btnPindahActivityExplisit"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFIL"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:id="@+id/btnPindahActivityIntentBundle"/>
+
+</LinearLayout>

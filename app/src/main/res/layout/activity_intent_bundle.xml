@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:background="@drawable/biru">
+
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/ivFotoku"
+            android:layout_gravity="center"
+            android:src="@drawable/acong"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="NAMA : AHMAD ULIL IRFAN"
+            android:gravity="center"
+            android:id="@+id/tvNamaku"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="NPM : 16670065"
+            android:gravity="center"
+            android:id="@+id/tvNpm"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="KELAS : INFORMATIKA 6A"
+            android:gravity="center"
+            android:id="@+id/tvKelas"
+            android:layout_marginTop="8dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="EMAIL : ulilirfan3@GMAIL.COM"
+            android:gravity="center"
+            android:id="@+id/tvEmail"
+            android:layout_marginTop="8dp"/>
+
+</LinearLayout>
